@@ -12,23 +12,35 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a30f6a4852.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="CSS/styles.css" />
     <title>Currículum Vitae</title>
   </head>
-
   <body>
     <div class="loader">
-      <img
-        src="IMG/loading.gif"
-      />
+      <img src="IMG/loading.gif" />
     </div>
+
     <div class="container-nav">
       <nav>
-        <div class="nav-item">Inicio</div>
-        <div class="nav-item">Estudios</div>
-        <div class="nav-item">Experiencia Laboral</div>
-        <div class="nav-item">Formación Extra</div>
-        <div class="nav-item">Contacto</div>
+        <div class="nav-item">
+          <a href="">Recargar</a>
+        </div>
+        <div class="nav-item">
+          <a href="#education">Formación</a>
+        </div>
+        <div class="nav-item">
+          <a href="#about">Sobre mi</a>
+        </div>
+        <div class="nav-item">
+          <a href="#experience">Experiencia</a>
+        </div>
+        <div class="nav-item">
+          <a href="#contact">Contacto</a>
+        </div>
       </nav>
     </div>
     <div class="container">
@@ -36,22 +48,248 @@
         <div class="main-cv">
           <h1 id="first-name" class="first-name"></h1>
           <h1 id="last-name" class="last-name"></h1>
-          <h4 class="profession">Profesión - Especialidades</h4>
+          <h4 id="profession" class="profession"></h4>
         </div>
         <div class="avatar">
-          <img id="img-person" src="" alt="Avatar" />
+          <div class="container-avatar">
+            <img id="img-person" src="" alt="Avatar" />
+          </div>
         </div>
       </div>
-      <div class="body-cv"></div>
+      <div class="body-cv">
+        <div class="body-right">
+          <div class="skills">
+            <h1>Habilidades</h1>
+            <div class="skill">
+              <div id="skill-left">
+                <h4 id="skill-nmbr">80%</h4>
+              </div>
+              <div id="skill-right">
+                <h4>Habilidad 1</h4>
+              </div>
+              <div id="skill-percent"></div>
+              <div id="skill-full"></div>
+            </div>
+            <div class="skill">
+              <div id="skill-left">
+                <h4 id="skill-nmbr">90%</h4>
+              </div>
+              <div id="skill-right">
+                <h4>Habilidad 2</h4>
+              </div>
+              <div id="skill-percent"></div>
+              <div id="skill-full"></div>
+            </div>
+            <div class="skill">
+              <div id="skill-left">
+                <h4 id="skill-nmbr">90%</h4>
+              </div>
+              <div id="skill-right">
+                <h4>Habilidad 3</h4>
+              </div>
+              <div id="skill-percent"></div>
+              <div id="skill-full"></div>
+            </div>
+            <div class="skill">
+              <div id="skill-left">
+                <h4 id="skill-nmbr">90%</h4>
+              </div>
+              <div id="skill-right">
+                <h4>Habilidad 4</h4>
+              </div>
+              <div id="skill-percent"></div>
+              <div id="skill-full"></div>
+            </div>
+          </div>
+          <div class="languages">
+            <h1>Idiomas</h1>
+            <div class="language">
+              <div id="language-percent">
+                <h1>100 <span id="percent">%</span></h1>
+              </div>
+              <div id="language-desc">
+                <h1>Español</h1>
+                <h2 id="level">Lengua Materna</h2>
+              </div>
+            </div>
+            <div class="language">
+              <div id="language-percent">
+                <h1>100 <span id="percent">%</span></h1>
+              </div>
+              <div id="language-desc">
+                <h1>Inglés</h1>
+                <h2 id="level">Nivel avanzado</h2>
+              </div>
+            </div>
+            <div class="language">
+              <div id="language-percent">
+                <h1>100 <span id="percent">%</span></h1>
+              </div>
+              <div id="language-desc">
+                <h1>Portugués</h1>
+                <h2 id="level">Nivel intermedio</h2>
+              </div>
+            </div>
+            <div class="language"></div>
+          </div>
+          <div class="experience">
+            <h1 id="experience">Experiencia</h1>
+            <div class="job">
+              <div class="job-left">
+                <h4>Puesto de trabajo</h4>
+                <h5 id="enterprise">Empresa</h5>
+                <h5>Año inicio - Año fin</h5>
+              </div>
+              <div class="job-right">
+                <h5>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam eveniet, distinctio a impedit temporibus similique
+                  nemo? Maiores, amet! Accusantium et nulla illo. Sequi earum
+                  enim, totam consectetur voluptatum nobis natus!
+                </h5>
+              </div>
+            </div>
+            <div class="job">
+              <div class="job-left">
+                <h4>Puesto de trabajo</h4>
+                <h5 id="enterprise">Empresa</h5>
+                <h5>Año inicio - Año fin</h5>
+              </div>
+              <div class="job-right">
+                <h5>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam eveniet, distinctio a impedit temporibus similique
+                  nemo? Maiores, amet! Accusantium et nulla illo. Sequi earum
+                  enim, totam consectetur voluptatum nobis natus!
+                </h5>
+              </div>
+            </div>
+            <div class="job">
+              <div class="job-left">
+                <h4>Puesto de trabajo</h4>
+                <h5 id="enterprise">Empresa</h5>
+                <h5>Año inicio - Año fin</h5>
+              </div>
+              <div class="job-right">
+                <h5>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam eveniet, distinctio a impedit temporibus similique
+                  nemo? Maiores, amet! Accusantium et nulla illo. Sequi earum
+                  enim, totam consectetur voluptatum nobis natus!
+                </h5>
+              </div>
+            </div>
+            <div class="job">
+              <div class="job-left">
+                <h4>Puesto de trabajo</h4>
+                <h5 id="enterprise">Empresa</h5>
+                <h5>Año inicio - Año fin</h5>
+              </div>
+              <div class="job-right">
+                <h5>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam eveniet, distinctio a impedit temporibus similique
+                  nemo? Maiores, amet! Accusantium et nulla illo. Sequi earum
+                  enim, totam consectetur voluptatum nobis natus!
+                </h5>
+              </div>
+            </div>
+            <div class="job">
+              <div class="job-left">
+                <h4>Puesto de trabajo</h4>
+                <h5 id="enterprise">Empresa</h5>
+                <h5>Año inicio - Año fin</h5>
+              </div>
+              <div class="job-right">
+                <h5>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam eveniet, distinctio a impedit temporibus similique
+                  nemo? Maiores, amet! Accusantium et nulla illo. Sequi earum
+                  enim, totam consectetur voluptatum nobis natus!
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="side-cv">
-        <div class="block-side-cv">
-          <h2>Contacto</h2>
+        <div class="contact-side-cv">
+          <h2 id="contact">Contacto</h2>
+          <div class="side-cv-block">
+            Nacimiento
+            <h3 id="date-city" class="date-city"></h3>
+          </div>
+          <div class="side-cv-block">
+            Dirección
+            <h3 id="address" class="address"></h3>
+          </div>
+          <div class="side-cv-block">
+            Teléfono / Email
+            <ul>
+              <li id="phone" class="phone"></li>
+              <li id="email" class="email"></li>
+            </ul>
+          </div>
         </div>
-        <div class="block-side-cv">
+        <div id="about" class="about-side-cv">
           <h2>Sobre mi</h2>
+          <div class="block-about">
+            <h4 class="about">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sequi
+              quasi maiores ipsum quia, et architecto dolore quam explicabo
+              harum, in, recusandae voluptatem temporibus culpa aperiam dicta!
+              Possimus, repellendus culpa! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </h4>
+          </div>
+          <div class="block-about">
+            <h3>Redes sociales</h3>
+            <ul>
+              <li id="facebook" class="facebook">
+                <div class="social-back">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+                &nbsp; /Facebook
+              </li>
+              <li id="twitter" class="twitter">
+                <div class="social-back">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                &nbsp; @Twitter
+              </li>
+              <li id="linkedin" class="linkedin">
+                <div class="social-back">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+                &nbsp; @LinkedIn
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="block-side-cv">
-          <h2>Formación</h2>
+        <div class="education-side-cv">
+          <h2 id="education">
+            <i class="fa-solid fa-arrow-up-to-line"></i>Formación
+          </h2>
+          <div class="block-education">
+            <h4>Título / Formación</h4>
+            <h5>Centro de estudios</h5>
+            <h6>Año inicio - Año fin</h6>
+          </div>
+          <div class="block-education">
+            <h4>Título / Formación</h4>
+            <h5>Centro de estudios</h5>
+            <h5>Año inicio - Año fin</h5>
+          </div>
+          <div class="block-education">
+            <h4>Título / Formación</h4>
+            <h5>Centro de estudios</h5>
+            <h6>Año inicio - Año fin</h6>
+          </div>
+          <div class="block-education">
+            <h4>Título / Formación</h4>
+            <h5>Centro de estudios</h5>
+            <h6>Año inicio - Año fin</h6>
+          </div>
         </div>
       </div>
     </div>
